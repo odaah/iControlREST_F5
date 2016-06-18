@@ -1,0 +1,1 @@
+curl -k -u admin:admin -X GET https://10.12.12.12/mgmt/tm/ltm/pool/ -H "Content-Type: application/json" | python ppjson.py
